@@ -60,7 +60,7 @@ theme = 'study_blog_relearn'
   mermaidZoom = true
   ordersectionsby = 'weight'
   showVisitedLinks = true
-  themeVariantModifier = ''
+  themeVariantAuto = ['relearn-dark', 'relearn-dark']
   titleSeparator = '::'
 
   [params.author]
@@ -82,15 +82,15 @@ theme = 'study_blog_relearn'
     twitter = ''
 
 [[params.themeVariant]]
-    auto = []
+    identifier = 'relearn-dark'
+
+[[params.themeVariant]]
+    auto = ['relearn-light', 'relearn-dark']
     identifier = 'relearn-auto'
     name = 'Relearn Light/Dark'
 
 [[params.themeVariant]]
     identifier = 'relearn-light'
-
-[[params.themeVariant]]
-    identifier = 'relearn-dark'
 
 [[params.themeVariant]]
     identifier = 'relearn-bright'
