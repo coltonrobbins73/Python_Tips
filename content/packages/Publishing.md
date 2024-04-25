@@ -25,14 +25,14 @@ Add a "New repository secret" and name it "PYPI_API_TOKEN". In the "secret" cont
 
 ### Add setup.py
 
-Copy this file [setup.py](/Python_Tips/files/setup.py) and fill out the information for your app.
+Copy this file [setup.py](/Python_Tips/files/setup.py) and fill out the information for your app. Place this file in your root project directory
 
 ### Add action script
 
 Copy this file [publish.yml](/Python_Tips/files/publish.yml) and add it to this directory with the structure specified below.
 
     .
-    |-- Main_project/
+    |-- Root_project_directory/
         |-- .github/
             |-- workflows/
                 |-- Publish.yml
