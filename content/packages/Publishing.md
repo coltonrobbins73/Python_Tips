@@ -25,19 +25,22 @@ Add a "New repository secret" and name it "PYPI_API_TOKEN". In the "secret" cont
 
 ### Add setup.py
 
-Copy this file [setup.py](/Python_Tips/assets/example_files/setup.py) and fill out the information for your app.
+Copy this file [setup.py](/files/setup.py) and fill out the information for your app.
 
 ### Add action script
 
-<a href="/Python_Tips/assets/example_files/publish.yml" 
-download>Click here to download</a>
+Copy this file [publish.yml](/files/publish.yml) and add it to this directory with the structure specified below.
 
     .
-    |-- Main_project
-        |-- .github
-            |-- workflows
+    |-- Main_project/
+        |-- .github/
+            |-- workflows/
                 |-- Publish.yml
 
 ### Change github settings
 
-    In your github repo go to "Settings" > "Pages" and change "Build and deployment source" to "Github Actions"
+In your github repo go to "Settings" > "Pages" and change "Build and deployment source" to "Github Actions"
+
+### Execute actions using a commit
+
+To submit a new version of your package to PyPI, increment the version number in the setup.py file. If the version already exists on PyPI, the package will not be published which is useful for small developmental commits before releasing a new version.
