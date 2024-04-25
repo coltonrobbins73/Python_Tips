@@ -4,9 +4,6 @@ title = 'Python Tips'
 theme = 'study_blog_relearn'
 [menu]
 
-https://compact-curriculum.github.io/Python_Tips/assets/example_files/setup.py
-
-
 [[menu.shortcuts]]
     name = "<i class='fas fa-book'></i> Back to compact directory"
     url = 'https://compact-curriculum.github.io/Directory/materials/index.html'
