@@ -5,7 +5,7 @@ draft = false
 weight = 4
 +++
 
-[Back to instructions](/packages/publishing/#add-action-script)
+[Back to instructions](/Python_Tips/files/publishing/#add-action-script)
 
 ```yaml
 # Name of the GitHub Actions workflow
