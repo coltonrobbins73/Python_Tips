@@ -81,18 +81,17 @@ theme = 'study_blog_relearn'
     facebook_admin = ''
     twitter = ''
 
+
 [[params.themeVariant]]
     auto = []
     identifier = 'relearn-auto'
     name = 'Relearn Light/Dark'
 
 [[params.themeVariant]]
-    auto = ['relearn-light', 'relearn-dark']
-    identifier = 'relearn-auto'
-    name = 'Relearn Light/Dark'
+    identifier = 'relearn-light'
 
 [[params.themeVariant]]
-    identifier = 'relearn-light'
+    identifier = 'relearn-dark'
 
 [[params.themeVariant]]
     identifier = 'relearn-bright'
