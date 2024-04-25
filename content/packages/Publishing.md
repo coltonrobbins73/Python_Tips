@@ -40,4 +40,4 @@ download>Click here to download</a>
 
 ### Change github settings
 
-    In your github repo a
+    In your github repo go to "Settings" > "Pages" and change "Build and deployment source" to "Github Actions"
