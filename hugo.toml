@@ -82,7 +82,9 @@ theme = 'study_blog_relearn'
     twitter = ''
 
 [[params.themeVariant]]
-    identifier = 'relearn-dark'
+    auto = []
+    identifier = 'relearn-auto'
+    name = 'Relearn Light/Dark'
 
 [[params.themeVariant]]
     auto = ['relearn-light', 'relearn-dark']
