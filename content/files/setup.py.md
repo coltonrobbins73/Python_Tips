@@ -5,7 +5,7 @@ draft = false
 weight = 3
 +++
 
-[Back to instructions](/Python_Tips/files/publishing/#add-setuppy)
+[Back to instructions](/Python_Tips/packages/publishing/#add-setuppy)
 
 ```python
 # Import necessary functions from setuptools
